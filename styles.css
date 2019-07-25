@@ -1,0 +1,218 @@
+/* font-family: 'Shadows Into Light', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'ZCOOL KuaiLe', cursive;  
+font-family: 'Rancho', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Bubblegum Sans', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Give You Glory', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Astloch', cursive;
+font-family: 'Eater', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Caesar Dressing', cursive;
+font-family: 'Srisakdi', cursive; */
+body {
+  background-image: linear-gradient(beige, #663300);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  font-size: 1.5rem;
+  color: limegreen;
+  font-family: 'Princess Sofia', cursive;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* TITLE:  "FRACTION ADDITION" */
+#h2 {
+  font-size: 2rem;
+  color: blue;
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  letter-spacing: 3px;
+}
+/* TEXT:   INTRO PARAGRAPH: "IN ORDER TO ADD TWO FRACTIONS...." */
+#h3 {
+  font-size: 1.5rem;
+  color: blue;
+  text-shadow: 2px 2px 2px white;
+  font-family: 'Rye', cursive;
+  text-align: center;
+  letter-spacing: 3px;
+}
+#butterflyDirections {
+  font: 1.5rem;
+  width: 50%;
+  height: auto;
+  color: black;
+  border: 2px beige solid;
+  outline: 1px blue solid;
+}
+/* IMAGE:     BUTTERFLY ON FLOWER */
+#butterflyImage {
+  width: 20%;
+  height: auto;
+  float: left;
+  margin-left: 5%;
+  border: 1px tomato solid;
+  outline: 2px black solid;
+  margin-bottom: 15px;
+}
+/* IMAGE:  MAIN EXAMPLE */
+#butterflyExample {
+  width: 40%;
+  height: auto;
+  border: 1px tomato solid;
+  outline: 2px black solid;
+  margin-bottom: 15px;
+}
+/* EXAMPLE PROBLEM 2 */
+#example2 {
+  width: 200px;
+  height: auto;
+  border: 1px tomato solid;
+  outline: 2px black solid;
+  display: inline-block;
+  margin-right: 8%;
+}
+#example3 {
+  width: 200px;
+  height: 234px;
+  border: 1px tomato solid;
+  outline: 2px black solid;
+  display: inline-block;
+  margin-right: 8%;
+}
+#example4 {
+  width: 200px;
+  height: 234px;
+  border: 1px tomato solid;
+  outline: 2px black solid;
+  display: inline-block;
+  margin-right: 8%;
+}
+#example5 {
+  width: 200px;
+  height: 234px;
+  border: 1px tomato solid;
+  outline: 2px black solid;
+  display: inline-block;
+  margin-right: 8%;
+}
+/* TEXT:   TEXT UNDER THE EXAMPLE PROBLEM */
+#review {
+  font-size: 1.5rem;
+  color: limegreen;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  letter-spacing: 4px;
+}
+/* DIV   PRACTICE PROBLEMS SECTION */
+#row2 {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px black solid;
+  display: block;
+  background-color: beige;
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+}
+/* Student Practice Problem Section */
+#row3 {
+
+}
+#practice1 {
+  width: 10%;
+  height: auto;
+  border: 2.7px blue solid;
+  margin-right: 10%;
+}
+#practice2, #practice3, #practice4 {
+  width: 10%;
+  height: auto;
+  border: 2px blue solid;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+/* INPUT: USER'S ANSWERS TO EACH PRACTICE PROBLEM */
+/* #answer1 {
+  width: 100px;
+  height: auto;
+  margin-right: 8%;
+  font-size: 2rem;
+  color: blue;
+  padding: 10px 10px;
+  font-family: 'Amatic SC', cursive;
+  background-color: beige;
+  border: 1px black solid;
+  letter-spacing: 3px;
+  text-align: center;
+  display: inline-block;
+} */
+#answer1, #answer2, #answer3, #answer4 {
+  width: 9%;
+  height: auto;
+  margin-right: 10%;
+  font-size: 2rem;
+  color: blue;
+  padding: 10px 10px;
+  font-family: 'Amatic SC', cursive;
+  background-color: beige;
+  border: 1px black solid;
+  letter-spacing: 3px;
+  text-align: center;
+  display: inline-block;
+}
+/* SUBMIT BUTTON:   CHECKING THE ANSWER */
+#btn1, #btn2, #btn3, #btn4 {
+  width: 10.2%;
+  height: auto;
+  margin-right: 10%;
+  font-size: 1.5rem;
+  color: blue;
+  padding: 10px 10px;
+  font-family: 'Amatic SC', cursive;
+  background-color: beige;
+  border: 1px black solid;
+  letter-spacing: 3px;
+  text-align: center;
+  display: inline-block;
+}
+#demo1, #demo2, #demo3, #demo4 {
+  width: 9%;
+  height: 60px;
+  margin-right: 10%;
+  font-size: 1.2rem;
+  color: blue;
+  padding: 10px 10px;
+  font-family: 'Amatic SC', cursive;
+  background-color: beige;
+  border: 1px black solid;
+  letter-spacing: 3px;
+  text-align: center;
+  display: inline-block;
+}
